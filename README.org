@@ -1,0 +1,26 @@
+* find-by-pinyin-dired (v0.0.1)
+Find file by first Pinyin characters of Chinese Hanzi
+
+输入拼音首字母，即可定位到对应的中文目录/文件.
+
+[[http://xbeta.info/tc-pinyin-quicksearch.htm][Emacs不会比total commander差]].
+
+* Install
+Download and place find-by-pinyin-dired.el somewhere (say ~/.emacs/lisp), add below code into your .emacs:
+#+BEGIN_SRC lisp
+(add-to-list 'load-path "~/.emacs.d/lisp/")
+(require 'find-by-pinyin-dired)
+#+END_SRC
+
+* Usage
+`M-x find-by-pinyin-dired`
+
+* Bug Report
+Check [[https://github.com/redguardtoo/find-by-pinyin-dired]].
+
+* License
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see [[http://www.gnu.org/licenses/]].

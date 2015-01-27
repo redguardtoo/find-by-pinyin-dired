@@ -1,7 +1,7 @@
 * find-by-pinyin-dired (v0.0.1)
 Find file by first Pinyin characters of Chinese Hanzi
 
-输入拼音首字母，即可定位到对应的中文目录/文件.
+输入拼音首字母，即可在 Dired 中定位到对应的中文文件.
 
 [[http://xbeta.info/tc-pinyin-quicksearch.htm][Emacs不会比total commander差]].
 

@@ -59,8 +59,8 @@ PATTERN is sequence of first character of PinYin from Chinese file name."
   (interactive
    "DFind-name (directory): \nsFind-name (first characters of Hanzi Pinyin): ")
 
-  (let ((regexp ".*"))
-    (dotimes (i (length pattern) str)
+  (let ((regexp ".*") str)
+    (dotimes (i (length pattern))
       (setq str (nth (- (aref pattern i) 97) fbpd-char-table))
       (setq regexp (concat regexp str ".*")))
     ;; find-lisp-find-dired is a lisp version

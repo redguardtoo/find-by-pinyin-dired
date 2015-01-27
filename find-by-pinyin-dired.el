@@ -11,6 +11,7 @@
 
 ;; This file is free software (GPLv3 License)
 
+;;; Commentary:
 ;; Setup:
 ;;
 ;; Place this file somewhere (say ~/.emacs/lisp), add below code into your .emacs:
@@ -67,3 +68,5 @@ PATTERN is sequence of first character of PinYin from Chinese file name."
     (find-lisp-find-dired dir regexp)))
 
 (provide 'find-by-pinyin-dired)
+
+;;; find-by-pinyin-dired.el ends here

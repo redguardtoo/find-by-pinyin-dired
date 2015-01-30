@@ -1,4 +1,4 @@
-* find-by-pinyin-dired (v0.0.1)
+* find-by-pinyin-dired (v0.0.2)
 Find file by first Pinyin characters of Chinese Hanzi
 
 输入拼音首字母，即可在 Dired 中定位到对应的中文文件.

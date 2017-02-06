@@ -1,4 +1,4 @@
-* find-by-pinyin-dired (v0.0.2)
+* find-by-pinyin-dired v0.0.3
 Find file by first Pinyin characters of Chinese Hanzi
 
 输入拼音首字母，即可在 Dired 中定位到对应的中文文件.
@@ -13,11 +13,21 @@ Download and place find-by-pinyin-dired.el somewhere (say ~/.emacs/lisp), add be
 #+END_SRC
 
 * Usage
-`M-x find-by-pinyin-dired`
+=M-x find-by-pinyin-dired= find files in the directory which users provide interactively.
 
+=M-x find-by-pinyin-in-projectdired= find files in the project root directory.
+
+The root directory is in =find-by-pinyin-project-root=.
+
+If =find-by-pinyin-project-root= is nil (default value) and [[https://github.com/technomancy/find-file-in-project][find-file-in-project]] is installed, project root directory is detected *automatically*.
+
+If =find-by-pinyin-no-punc-p= is =t=, English punctuation is converted to Chinese punctuation.
+
+If =find-by-pinyin-traditional-p= is =t=, traditional Chinese characters are used instead of simplified Chinese characters.
+
+If =find-by-pinyin-only-chinese-p= is =t=: the resulting regular expression doesn't contain the English letter.
 * Bug Report
 Check [[https://github.com/redguardtoo/find-by-pinyin-dired]].
-
 * License
 This program is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 

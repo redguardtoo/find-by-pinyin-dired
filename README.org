@@ -15,7 +15,7 @@ Download and place find-by-pinyin-dired.el somewhere (say ~/.emacs/lisp), add be
 * Usage
 =M-x find-by-pinyin-dired= find files in the directory which users provide interactively.
 
-=M-x find-by-pinyin-in-projectdired= find files in the project root directory.
+=M-x find-by-pinyin-in-project-dired= find files in the project root directory.
 
 The root directory is in =find-by-pinyin-project-root=.
 

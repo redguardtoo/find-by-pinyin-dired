@@ -85,7 +85,7 @@ For example, pattern 'hh tt' find file '好好学习天天向上.txt'."
 ;;;###autoload
 (defun find-by-pinyin-in-project-dired (pattern)
   "Simlar to `find-by-pinyin-dired' while search directory automatically detected.
-The directory is detected by `ffip-project-root' if you installed `find-file-in-project'."
+The directory is detected by `ffip-project-root' if `find-file-in-project' installed."
   (interactive "sFile name (first characters of Hanzi Pinyin): ")
   (let* ((dir (or find-by-pinyin-project-root
                   (if (fboundp 'ffip-project-root) (ffip-project-root)))))
